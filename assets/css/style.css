@@ -11,12 +11,12 @@ body {
 }
 
 a {
-  color: #89572ed2;
+  color: #04364A;
   text-decoration: none;
 }
 
 a:hover {
-  color: #f5e871;
+  color: #64CCC5;
   text-decoration: none;
 }
 
@@ -47,7 +47,7 @@ section {
   letter-spacing: 1px;
   font-weight: 700;
   margin: 0;
-  color: #FFD966;
+  color: #176B87;
   text-transform: uppercase;
 }
 
@@ -57,7 +57,7 @@ section {
   font-size: 38px;
   line-height: 42px;
   font-weight: 700;
-  color: #89572ed2;
+  color: #04364A;
 }
 
 @media (max-width: 768px) {
@@ -72,15 +72,15 @@ section {
 --------------------------------------------------------------*/
 .breadcrumbs {
   padding: 15px 0;
-  background: #89572ed2;
+  background: #04364A;
   min-height: 40px;
   margin-top: 82px;
-  color: #fff5ef;
+  color: #DAFFFB;
 }
 
 @media (max-width: 992px) {
   .breadcrumbs {
-    margin-top: 80px;
+    margin-top: 80  px;
   }
 }
 
@@ -99,7 +99,7 @@ section {
 }
 
 .breadcrumbs ol a {
-  color: #fff5ef;
+  color: #DAFFFB;
   transition: 0.3s;
 }
 
@@ -114,7 +114,7 @@ section {
 .breadcrumbs ol li+li::before {
   display: inline-block;
   padding-right: 10px;
-  color: #FFD966;
+  color: #176B87;
   content: "/";
 }
 
@@ -128,7 +128,7 @@ section {
   right: 15px;
   bottom: 15px;
   z-index: 99999;
-  background: #FFD966;
+  background: #176B87;
   width: 40px;
   height: 40px;
   border-radius: 4px;
@@ -137,13 +137,13 @@ section {
 
 .back-to-top i {
   font-size: 24px;
-  color: #fff5ef;
+  color: #DAFFFB;
   line-height: 0;
 }
 
 .back-to-top:hover {
-  background: #FFD966;
-  color: #fff5ef;
+  background: #176B87;
+  color: #DAFFFB;
 }
 
 .back-to-top.active {
@@ -167,7 +167,7 @@ section {
   transition: all 0.5s;
   z-index: 997;
   padding: 20px 0;
-  background: #fff5ef;
+  background: #DAFFFB;
   box-shadow: 0px 2px 20px rgba(1, 41, 112, 0.1);
 }
 
@@ -185,7 +185,7 @@ section {
   font-size: 30px;
   font-weight: 700;
   letter-spacing: 1px;
-  color: #89572ed2;
+  color: #04364A;
   font-family: "Nunito", sans-serif;
   margin-top: 3px;
 }
@@ -221,7 +221,7 @@ section {
   font-family: "Nunito", sans-serif;
   font-size: 16px;
   font-weight: 700;
-  color: #89572ed2;
+  color: #04364A;
   white-space: nowrap;
   transition: 0.3s;
 }
@@ -237,7 +237,7 @@ section {
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover>a {
-  color: #FFD966;
+  color: #176B87;
 }
 
 .navbar .dropdown ul {
@@ -250,7 +250,7 @@ section {
   z-index: 99;
   opacity: 0;
   visibility: hidden;
-  background: #fff5ef;
+  background: #DAFFFB;
   box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
   transition: 0.3s;
   border-radius: 4px;
@@ -274,7 +274,7 @@ section {
 .navbar .dropdown ul a:hover,
 .navbar .dropdown ul .active:hover,
 .navbar .dropdown ul li:hover>a {
-  color: #FFD966;
+  color: #176B87;
 }
 
 .navbar .dropdown:hover>ul {
@@ -300,13 +300,13 @@ section {
 
 .navbar .megamenu ul li a,
 .navbar .megamenu ul li:hover>a {
-  color: #89572ed2;
+  color: #04364A;
 }
 
 .navbar .megamenu ul li a:hover,
 .navbar .megamenu ul li .active,
 .navbar .megamenu ul li .active:hover {
-  color: #FFD966;
+  color: #176B87;
 }
 
 .navbar .dropdown .dropdown ul {
@@ -336,7 +336,7 @@ section {
 * Mobile Navigation 
 */
 .mobile-nav-toggle {
-  color: #89572ed2;
+  color: #04364A;
   font-size: 28px;
   cursor: pointer;
   display: none;
@@ -384,7 +384,7 @@ section {
   left: 15px;
   padding: 10px 0;
   border-radius: 10px;
-  background-color: #fff5ef;
+  background-color: #DAFFFB;
   overflow-y: auto;
   transition: 0.3s;
 }
@@ -393,13 +393,13 @@ section {
 .navbar-mobile a:focus {
   padding: 10px 20px;
   font-size: 15px;
-  color: #89572ed2;
+  color: #04364A;
 }
 
 .navbar-mobile a:hover,
 .navbar-mobile .active,
 .navbar-mobile li:hover>a {
-  color: #FFD966;
+  color: #176B87;
 }
 
 .navbar-mobile .getstarted,
@@ -415,7 +415,7 @@ section {
   z-index: 99;
   opacity: 1;
   visibility: visible;
-  background: #fff5ef;
+  background: #DAFFFB;
   box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
 }
 
@@ -434,7 +434,7 @@ section {
 .navbar-mobile .dropdown ul a:hover,
 .navbar-mobile .dropdown ul .active:hover,
 .navbar-mobile .dropdown ul li:hover>a {
-  color: #FFD966;
+  color: #176B87;
 }
 
 .navbar-mobile .dropdown>.dropdown-active {
@@ -454,7 +454,7 @@ section {
   margin: 0;
   font-size: 36px;
   font-weight: 700;
-  color: #89572ed2;
+  color: #04364A;
 }
 
 .hero h2 {
@@ -470,7 +470,7 @@ section {
   border-radius: 4px;
   transition: 0.5s;
   color: #fff;
-  background: #89572ed2;
+  background: #04364A;
   box-shadow: 0px 5px 30px rgba(100, 100, 100, 0.975);
 }
 
@@ -541,21 +541,14 @@ section {
 # About
 --------------------------------------------------------------*/
 .about .content {
-  background-color: #f7ded069;
+  background-color: #DAFFFB;
   padding: 40px;
-}
-
-.about h3 {
-  font-size: 14px;
-  font-weight: 700;
-  color: #ffdb71;
-  text-transform: uppercase;
 }
 
 .about h2 {
   font-size: 24px;
   font-weight: 700;
-  color: #F4B183;
+  color: #04364A;
 }
 
 .about p {
@@ -569,7 +562,7 @@ section {
   border-radius: 4px;
   transition: 0.5s;
   color: #fff;
-  background: #FFD966;
+  background: #176B87;
 }
 
 .about .btn-read-more span {
@@ -608,7 +601,7 @@ section {
 
 .values .box h3 {
   font-size: 24px;
-  color: #FFD966;
+  color: #176B87;
   font-weight: 700;
   margin-bottom: 18px;
 }
@@ -651,8 +644,8 @@ section {
 
 .portfolio #portfolio-flters li:hover,
 .portfolio #portfolio-flters li.filter-active {
-  color: #f1e241;
-  border-color: #f1e241;
+  color: #04364A;
+  border-color: #04364A;
 }
 
 .portfolio #portfolio-flters li:last-child {
@@ -692,8 +685,8 @@ section {
 
 .languages #languages-flters li:hover,
 .languages #languages-flters li.filter-active {
-  color: #FFD966;
-  border-color: #FFD966;
+  color: #176B87;
+  border-color: #176B87;
 }
 
 .languages #languages-flters li:last-child {
@@ -791,7 +784,7 @@ section {
 
 .languages .languages-wrap .languages-links a {
   color: #fff;
-  background: #FFD966;
+  background: #176B87;
   margin: 10px 2px;
   width: 36px;
   height: 36px;
@@ -808,7 +801,7 @@ section {
 }
 
 .languages .languages-wrap .languages-links a:hover {
-  background: #FFD966;
+  background: #176B87;
 }
 
 .languages .languages-wrap:hover img {
@@ -871,7 +864,7 @@ section {
   font-size: 30px;
   font-weight: 700;
   letter-spacing: 1px;
-  color: #89572ed2;
+  color: #04364A;
   font-family: "Nunito", sans-serif;
   margin-top: 3px;
 }
@@ -886,20 +879,20 @@ section {
 .footer .footer-top .social-links a {
   font-size: 20px;
   display: inline-block;
-  color: #89572ed2;
+  color: #04364A;
   line-height: 0;
   margin-right: 10px;
   transition: 0.3s;
 }
 
 .footer .footer-top .social-links a:hover {
-  color: #89572ed2;
+  color: #04364A;
 }
 
 .footer .footer-top h4 {
   font-size: 16px;
   font-weight: bold;
-  color: #89572ed2;
+  color: #04364A;
   text-transform: uppercase;
   position: relative;
   padding-bottom: 12px;
@@ -917,7 +910,7 @@ section {
 
 .footer .footer-top .footer-links ul i {
   padding-right: 2px;
-  color: #fff5ef;
+  color: #DAFFFB;
   font-size: 12px;
   line-height: 0;
 }
@@ -933,14 +926,14 @@ section {
 }
 
 .footer .footer-top .footer-links ul a {
-  color: #89572ed2;
+  color: #04364A;
   transition: 0.3s;
   display: inline-block;
   line-height: 1;
 }
 
 .footer .footer-top .footer-links ul a:hover {
-  color: #FFD966;
+  color: #176B87;
 }
 
 .footer .footer-top .footer-contact p {
